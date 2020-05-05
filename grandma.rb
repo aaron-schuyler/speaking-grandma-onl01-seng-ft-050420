@@ -15,6 +15,8 @@
 def speak_to_grandma(phrase)
   if phrase
     puts "NO, NOT SINCE 1938!"
+  elsif phrase = ""
   else
-    puts 
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
 end
